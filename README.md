@@ -1,19 +1,19 @@
-# discovery-swarm
+# dweb-discovery-swarm
 
 A network swarm that uses [discovery-channel](https://github.com/maxogden/discovery-channel) to find and connect to peers.
 
 This module implements peer connection state and builds on discovery-channel which implements peer discovery. This uses TCP sockets by default and has experimental support for UTP.
 
 ```
-npm install discovery-swarm
+npm install dweb-discovery-swarm
 ```
 
-[![build status](http://img.shields.io/travis/mafintosh/discovery-swarm.svg?style=flat)](http://travis-ci.org/mafintosh/discovery-swarm)
+[![build status](http://img.shields.io/travis/mafintosh/dweb-discovery-swarm.svg?style=flat)](http://travis-ci.org/mafintosh/dweb-discovery-swarm)
 
 ## Usage
 
 ``` js
-var swarm = require('discovery-swarm')
+var swarm = require('dweb-discovery-swarm')
 
 var sw = swarm()
 
